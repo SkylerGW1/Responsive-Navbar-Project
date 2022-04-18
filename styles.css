@@ -23,3 +23,12 @@ nav a {
 nav a:hover {
     color:  white;
 }
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+main a {    
+    color: #f1b24a;
+}
+main a:hover {
+    color: #e68e00;
+}
