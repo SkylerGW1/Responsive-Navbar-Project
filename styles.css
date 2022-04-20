@@ -2,7 +2,10 @@ body {
     font-size: 125%;
     font-family: 'Nunito', sans-serif;
     color: white;
-    background-color: #4d774e;
+    width: 40em;
+    margin: auto;
+    background-image: linear-gradient(to right, #164a41, #1e4f40, #27543f, #31593e, #3c5d3c);
+    max-width: 100%;
 }
 
 nav ul {
