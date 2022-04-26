@@ -14,6 +14,7 @@ nav ul {
     padding: 0;
     display: flex;
     
+    
 }
 nav a {
     text-decoration: none;
@@ -22,6 +23,7 @@ nav a {
     color: #f1b24a;
     max-width: 100%;
     border: 1px solid #f1b24a;
+    background-color: #113a33;
 }
 nav a:hover {
     color:  white;
@@ -34,4 +36,4 @@ main a {
 }
 main a:hover {
     color: #e68e00;
-}
+}    
