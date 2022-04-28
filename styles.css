@@ -13,6 +13,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     
     
 }
@@ -24,6 +25,9 @@ nav a {
     max-width: 100%;
     border: 1px solid #f1b24a;
     background-color: #113a33;
+}
+header {   
+    margin: auto;
 }
 nav a:hover {
     color:  white;
@@ -37,5 +41,16 @@ main a {
 main a:hover {
     color: #e68e00;
 }    
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48
+  }
 /* styles for screen larger than 650px */
-@media 
+@media only screen and (min-width: 550px) {
+    nav ul {
+        flex-direction: row;
+    }
+}
