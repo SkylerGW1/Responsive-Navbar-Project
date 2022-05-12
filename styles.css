@@ -18,10 +18,30 @@ nav ul {
     opacity: 0;
     
 }
-nav ul.open {
+nav.open ul {
     opacity: 1;
     height: auto;
 }
+
+#menu-toggle {
+    width: 2em;
+    height: 2em;
+    background-color: #113a33;
+    border-radius: 2em;
+    transition: all 0.3s;
+    border: 1px solid #f1b24a;
+}
+#menu-toggle:hover {
+    background-color: #27543f;
+}
+#menu-toggle div {
+    width: 50%;
+    height: 3px;
+    background-color: #f1b24a;
+    margin: 4px auto;
+    transform: translateY(.39em);
+}
+
 nav a {
     text-decoration: none;
     display: block;
@@ -57,5 +77,10 @@ main a:hover {
 @media only screen and (min-width: 620px) {
     nav ul {
         flex-direction: row;
+    }
+    #menu-toggle {
+        opacity: 0;
+        height: 0;
+        width: 0;
     }
 }
