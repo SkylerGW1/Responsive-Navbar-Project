@@ -7,7 +7,10 @@ body {
     background-image: linear-gradient(to right, #164a41, #1e4f40, #27543f, #31593e, #3c5d3c);
     max-width: 100%;
 }
-
+header, main, footer {
+    margin: 0 auto;
+    max-width: 95%;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -41,6 +44,19 @@ nav.open ul {
     background-color: #f1b24a;
     margin: 4px auto;
     transform: translateY(.39em);
+    transition: all 0.3s;
+}
+
+#menu-toggle.open div.one {
+    transform: translateY(15px) rotate(-.125turn);
+}
+
+#menu-toggle.open div.two {
+    opacity: 0;
+}
+
+#menu-toggle.open div.three {
+    transform: translateY(1px) rotate(.125turn);
 }
 
 nav a {
